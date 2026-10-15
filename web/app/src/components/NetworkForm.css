@@ -1,0 +1,113 @@
+/* Container Layout */
+.network-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+/* Configuration Header Row */
+.form-row-header {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.number-input-field {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.number-field {
+  margin-left: 6px;
+  width: 60px;
+}
+
+/* Sections Common Typography */
+.section-info-text {
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* Vector Balances Component Group */
+.balance-grid-viewport {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  background: #fcfcfc;
+  padding: 8px;
+  border: 1px solid #eee;
+}
+
+.balance-input-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.balance-input-label {
+  font-size: 10px;
+  color: #666;
+}
+
+.balance-field {
+  width: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* Arcs Structural Topology Configuration Grid */
+.arcs-scroll-container {
+  max-height: 180px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  padding: 8px;
+  background: #fff;
+}
+
+.arcs-responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.arc-input-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px;
+  background: #f9f9f9;
+  border: 1px solid #f0f0f0;
+}
+
+.arc-row-label {
+  font-size: 11px;
+  min-width: 45px;
+}
+
+.arc-node-field {
+  width: 60px;
+  font-size: 11px;
+}
+
+/* Action Bar Elements */
+.form-footer-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.submit-solver-btn {
+  padding: 8px 20px;
+  cursor: pointer;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.error-message-text, .status-unbalanced {
+  color: orange;
+  font-size: 11px;
+  font-weight: bold;
+}
