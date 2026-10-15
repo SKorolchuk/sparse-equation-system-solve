@@ -19,6 +19,8 @@ A backend-less client web application (SPA) for interactive decomposition and so
     1. *Graphical Block* - Visualization of the graph and the discovered spanning tree.
     2. *Mathematical Block* - A comprehensive report on the system solution (the particular solution vector, the fundamental system of solutions (FSS), and the final general parametric solution system).
 
+Online version of `web/app` application available at [https://skorolchuk.github.io/sparse-equation-system-solve/](https://skorolchuk.github.io/sparse-equation-system-solve/)
+
 ## Tech Stack
 
 - Go 1.22+ SDK, `gonum.org/v1/gonum`, Go WASM module,
